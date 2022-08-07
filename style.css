@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+   --violet-50: #f5f3ff;
+   --violet-100: #ede9fe;
+   --violet-200: #ddd6fe;
+   --violet-300: #c4b5fd;
+   --violet-400: #a78bfa;
+   --violet-500: #8b5cf6;
+   --violet-600: #7c3aed;
+   --violet-700: #6d28d9;
+   --violet-800: #5b21b6;
+   --violet-900: #4c1d95;
+}
+
+body {
+    margin: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: var(--violet-700);
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+h1 {
+    margin: 0;
+    padding: 1.75rem;
+}
+
+.container {
+    text-align: center;
+    font-size: 1.25rem;
+    
+    width: 750px;
+    margin: auto;
+    margin-top: 4rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 25px 3px lightgray;
+}
+
+
+#bday-input {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    font-size: 1.125rem;
+}
+p {
+    margin: 1rem 0;
+    
+}
+
+button {
+    border: 0;
+    padding: 0.75rem 1.5rem;
+    margin: 1rem;
+    font-size: 1.125rem;
+    color: white;
+    background-color: var(--violet-700);
+}
