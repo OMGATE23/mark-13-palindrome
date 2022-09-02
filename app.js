@@ -164,5 +164,7 @@ function clickHandler(){
         }
 
 
+    } else {
+        outputDiv.innerText = "Enter a date to proceed"
     }
 }
